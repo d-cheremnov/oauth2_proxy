@@ -507,6 +507,9 @@ func (p *OAuthProxy) GetRedirect(req *http.Request) (redirect string, err error)
 	if !p.IsValidRedirect(redirect) {
 		redirect = "/"
 	}
+	if req.FormValue("rd") != "" {
+		redirect_url = req.FormValue("rd")
+	}	
 	return
 }
 

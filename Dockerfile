@@ -2,7 +2,7 @@ FROM golang:1.15-alpine
 
 RUN apk update && apk add git
 
-WORKDIR $GOPATH/src/github.com/ploxiln/oauth2_proxy/
+WORKDIR $GOPATH/src/github.com/d-cheremnov/oauth2_proxy/
 COPY . .
 RUN CGO_ENABLED=0 go build -ldflags="-s -w" -o /usr/local/bin/oauth2_proxy
 
