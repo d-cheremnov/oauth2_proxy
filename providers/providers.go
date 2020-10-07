@@ -1,7 +1,7 @@
 package providers
 
 import (
-	"github.com/ploxiln/oauth2_proxy/cookie"
+	"github.com/d-cheremnov/oauth2_proxy/cookie"
 )
 
 type Provider interface {

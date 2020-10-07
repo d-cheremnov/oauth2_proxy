@@ -7,7 +7,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/ploxiln/oauth2_proxy/api"
+	"github.com/d-cheremnov/oauth2_proxy/api"
 )
 
 type GitLabProvider struct {

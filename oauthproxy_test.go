@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/mbland/hmacauth"
-	"github.com/ploxiln/oauth2_proxy/providers"
+	"github.com/d-cheremnov/oauth2_proxy/providers"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/websocket"
 )

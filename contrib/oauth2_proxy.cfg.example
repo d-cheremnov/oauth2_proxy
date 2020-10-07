@@ -1,5 +1,5 @@
 ## OAuth2 Proxy Config File
-## https://github.com/ploxiln/oauth2_proxy
+## https://github.com/d-cheremnov/oauth2_proxy
 
 ## <addr>:<port> to listen on for HTTP/HTTPS clients. Defaults to "127.0.0.1:4180"
 # http_address = "127.0.0.1:4180"

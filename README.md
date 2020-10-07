@@ -9,8 +9,8 @@ to validate accounts by email, domain or group.
 
 ## This Fork
 
-This repo [ploxiln/oauth2_proxy](https://github.com/ploxiln/oauth2_proxy)
-is a fork of [bitly/oauth2_proxy](https://github.com/bitly/oauth2_proxy)
+This repo [d-cheremnov/oauth2_proxy](https://github.com/d-cheremnov/oauth2_proxy)
+is a fork of [ploxiln/oauth2_proxy](https://github.com/ploxiln/oauth2_proxy]
 which is no longer maintained. You probably want to use the primary active fork
 which has many new features: [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)
 (or, for many services/domains but only google support: [buzfeed/sso](https://github.com/buzzfeed/sso)).
@@ -25,7 +25,7 @@ which has many new features: [oauth2-proxy](https://github.com/oauth2-proxy/oaut
 
 ### Download binary
 
-You can download a [Prebuilt Binary](https://github.com/ploxiln/oauth2_proxy/releases).
+You can download a [Prebuilt Binary](https://github.com/d-cheremnov/oauth2_proxy/releases).
 Prebuilt binaries can be validated by extracting the file and verifying it against the `sha256sum.txt` checksum file provided for each release:
 
 ```
@@ -35,11 +35,11 @@ oauth2_proxy-2.3.linux-amd64: OK
 
 ### Pull docker image
 
-see https://hub.docker.com/r/ploxiln/oauth2_proxy
+see https://hub.docker.com/r/d-cheremnov/oauth2_proxy
 
 ```
-docker pull ploxiln/oauth2_proxy
-docker run ... -p 4180:4180 -e OAUTH2_PROXY_CLIENT_SECRET ploxiln/oauth2_proxy oauth2_proxy --provider=github ...
+docker pull d-cheremnov/oauth2_proxy
+docker run ... -p 4180:4180 -e OAUTH2_PROXY_CLIENT_SECRET d-cheremnov/oauth2_proxy oauth2_proxy --provider=github ...
 ```
 
 ### Build from source
@@ -47,7 +47,7 @@ docker run ... -p 4180:4180 -e OAUTH2_PROXY_CLIENT_SECRET ploxiln/oauth2_proxy o
 Requires go-1.13 or later, and uses go modules for dependencies.
 
 ```sh
-git clone git@github.com:ploxiln/oauth2_proxy.git
+git clone git@github.com:d-cheremnov/oauth2_proxy.git
 cd oauth2_proxy
 go build
 ```

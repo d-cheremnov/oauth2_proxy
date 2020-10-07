@@ -19,7 +19,7 @@ jobs:
     container: "${{matrix.imgtag}}"
     env:
       GOPATH: "${{github.workspace}}/go"
-      SRCDIR: "go/src/github.com/ploxiln/oauth2_proxy"
+      SRCDIR: "go/src/github.com/d-cheremnov/oauth2_proxy"
     steps:
       - uses: actions/checkout@v2
         with:

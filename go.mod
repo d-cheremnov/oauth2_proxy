@@ -1,4 +1,4 @@
-module github.com/ploxiln/oauth2_proxy
+module github.com/d-cheremnov/oauth2_proxy
 
 go 1.15
 
